@@ -61,7 +61,6 @@ public class NguoiDungDAO {
                 entity.getSoDienThoai(),
                 entity.getEmail(),
                 entity.getHinh());
-        DialogHelper.alert(null, "Cập nhật thành công");
     }
 
     /**
