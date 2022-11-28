@@ -22,6 +22,7 @@ public class AuthorDiaLog extends javax.swing.JDialog {
 
     boolean congTac = false;
     
+    
     public AuthorDiaLog(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
