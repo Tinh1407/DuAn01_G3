@@ -40,6 +40,7 @@ public class PersonDiaLog extends javax.swing.JDialog {
         initComponents();
         setBackground(new Color(0, 0, 0, 0));
         initMoving(this, pnlMainDialog);
+
     }
 
     public PersonDiaLog(java.awt.Frame parent, boolean modal, NguoiDung nd) {
@@ -97,6 +98,7 @@ public class PersonDiaLog extends javax.swing.JDialog {
 
     public void setForm(NguoiDung nd) {
 
+        txtMaNguoiDung.setEditable(false);
         txtMaNguoiDung.setText(nd.getMaNguoiDung());
         txtHoTen.setText(nd.getHoTen());
         txtEmail.setText(nd.getEmail());
